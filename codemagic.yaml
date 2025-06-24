@@ -6,10 +6,6 @@ workflows:
       flutter: stable
       xcode: latest
       java: 17
-      android:
-        build_tools_version: "34.0.0"
-        compile_sdk_version: 34
-        ndk: 25.1.8937393
     scripts:
       - name: Install dependencies
         script: |
@@ -22,4 +18,4 @@ workflows:
     publishing:
       email:
         recipients:
-          - your_email@example.com
+          - vishalkumar@iamops.io
